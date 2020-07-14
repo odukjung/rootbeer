@@ -1,0 +1,13 @@
+{
+    "version": 1,
+    "data": {
+        "autoTrash": true,
+        "autoTrashItems": {
+            "beer": true,
+            "wine": true,
+            "moongourd": true,
+            "afro": true,
+            "chefHat": true
+        }
+    }
+}
