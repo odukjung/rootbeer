@@ -18,7 +18,7 @@ module.exports = function Rootbeer(mod) {
     let statRootbeer = 0;
     let readyToTrash = false;
     mod.game.initialize('inventory');
-    mod.command.add('rootbeer', {
+    mod.command.add(["rootbeer", "rb"], {
         $default() {
             if (!enabled) {
                 enabled = true;
