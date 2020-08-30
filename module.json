@@ -4,8 +4,5 @@
 	"author": "HakuryuuDom / Pinkie Pie / odukjung",
 	"description": "Automatically opens Bamarama boxes and discards trash.",
 	"version": "2.0",
-	"options": {
-		"niceName": "Rootbeer"
-	},
 	"servers": [""]
 }
