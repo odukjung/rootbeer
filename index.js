@@ -48,7 +48,7 @@ module.exports = function Rootbeer(mod) {
             w: myLoc.w || 0,
             unk4: true
         });
-        timer = mod.setTimeout(openBox, 1000); //backup if something fails
+        timer = mod.setTimeout(openBox, 800); //backup if something fails
         checkItems();
     }
     function findAll(id) {
