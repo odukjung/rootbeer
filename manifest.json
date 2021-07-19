@@ -1,1 +1,16 @@
-{"files": {}}
+{
+	"files": {
+		"index.js": "81601b8fdb9636ada4290b68cafa41347ec8a96235ac301365be6caae7f12bd1",
+		"module.json": "00a8217f895023a1034e4d476cc0ea97a5a39fdd274929272a342ce1197860a7",
+		"setting_migration.js": "b3e74457ca45e2810cd940e45257342b9d53b0c99b77ce66697f0dfb7f659574"
+	},
+	"defs": {
+		"C_DEL_ITEM": [2,3],
+		"C_MERGE_ITEM": [1,2],
+		"C_PLAYER_LOCATION": 5,
+		"C_RETURN_TO_LOBBY": "raw",
+		"C_USE_ITEM": 3,
+		"S_SPAWN_ME": 3,
+		"S_SYSTEM_MESSAGE_LOOT_ITEM": 1
+	}
+}
