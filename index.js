@@ -18,7 +18,7 @@ module.exports = function Rootbeer(mod) {
     let statRootbeer = 0;
     let readyToTrash = false;
     mod.game.initialize('inventory');
-    mod.command.add(["rootbeer", "rb"], {
+    mod.command.add('rootbeer', {
         $default() {
             if (!enabled) {
                 enabled = true;
@@ -80,6 +80,8 @@ module.exports = function Rootbeer(mod) {
         readyToTrash = false;
         if (active) deleteAndMerge();
         mod.command.message('Auto-Rootbeer stopped.' + (!statTotal ? '' : ` Unboxed ${statRootbeer}/${statTotal} (${(Math.floor(statRootbeer / statTotal * 1000) / 10) || '0'}%).`));
+		mod.command.message('ToTal Gold' + ' = ' + (`(${(statTotal * 5.35)}) g.`));
+		mod.command.message('Per Each' + ' = ' + (`(${(((statTotal * 5.35)/statRootbeer))}) g.`));
         statTotal = statRootbeer = 0;
     }
     function deleteItem(item) {
